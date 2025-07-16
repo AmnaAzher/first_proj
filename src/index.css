@@ -1,0 +1,64 @@
+:root {    /*global styles that are applied to the whole document*/
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; 
+  /*Uses the system's default UI font first, falling back to 
+  other common fonts. This helps ensure fast loading and good rendering.*/
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none; /*Prevents the browser from faking bold or italic styles when they're not available in the font.*/
+  text-rendering: optimizeLegibility; /*improves readability */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*colors*/ 
+  color-scheme: light dark; /*enables browser to build 
+  the elements according to the user's system preference*/
+  color: rgba(255, 255, 255, 0.87);
+
+  /*background-color: #242424;*/ /* gives background colour as grey according to the modern dark theme
+  commented out this line kyoun k background color system k according chahiye tha mujhy*/ 
+}
+
+/*a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}*/
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: left;
+}
+
+/* .firstLabel {
+  margin-right: 10px;
+  font-weight: 'bold';
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+.input{
+  margin-left: 10px;
+}
+
+.colorDisplayer{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+  border: 0px;
+  vertical-align: top;
+}
